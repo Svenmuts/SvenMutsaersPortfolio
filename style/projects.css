@@ -1,3 +1,7 @@
+.hoi {
+  display: none;
+}
+
 .border {
     border: 15px solid #000;
     height: 100vh;
@@ -129,4 +133,19 @@ h1 {
 .home-button:hover {
     background-color: #9c9c9c;
     color: #f8f9fa;
+}
+
+@media screen and (max-width: 1400px) {
+  .hoi {
+    display: block;
+  }
+
+  .hoi h1 {
+    font-size: 3rem;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 }
