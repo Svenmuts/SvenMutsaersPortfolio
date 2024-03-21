@@ -59,6 +59,7 @@ h1 {
     padding: 40px;
     justify-content: center;
     align-items: center;
+    width: 80vw;
 }
 
 .img1 img, .img2 img, .img3 img, .img4 img {
